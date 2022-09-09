@@ -18,6 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am pursuing Master's degree in Computer Engineering with special curricula `"Artificial Intelligence Engineering"` at Università degli studi di Modena e Reggio Emilia.
+
 I am currently studying as an exchange student in Trondheim at Norwegian University of Science and Technology.
 
 I am enthusiast of Artificial Intelligence, deep learning technologies, and particularly devoted to `ethical issues` in technology and `trustworthy AI`.
