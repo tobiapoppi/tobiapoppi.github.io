@@ -21,7 +21,7 @@ I am pursuing Master's degree in Computer Engineering with special curricula `"A
 
 I am currently studying as an exchange student in Trondheim at Norwegian University of Science and Technology.
 
-I am enthusiast of Artificial Intelligence, deep learning technologies, and particularly devoted to `ethical issues` in technology and `trustworthy AI`.
+I am enthusiast of Artificial Intelligence, deep learning technologies, and particularly devoted to `trustworthy AI` and `ethical issues` implicated in technology.
 
 As a multifaceted personality, I love to switch from one activity to another, taking care of my `educational life`, `spiritual life`, `artistic life` and `sporting life` through a variety of passions. 
 
