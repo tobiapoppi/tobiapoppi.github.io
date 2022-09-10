@@ -2,18 +2,28 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Tobia Poppi
     - name: Date of Birth
-      value: 14th March 1879
+      value: 17th September 1999
     - name: Languages
-      value: English, German
+      value: English, Italian
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master's Degree
+      institution: Università degli studi di Modena e Reggio Emilia, Modena, Italy
+      year: 2021 - present
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Bachelor's Degree
+      institution: Università degli studi di Modena e Reggio Emilia, Mantova, Italy
+      year: 2018 - 2021
       description:
         - Description 1.
         - Description 2.
