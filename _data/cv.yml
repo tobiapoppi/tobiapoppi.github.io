@@ -29,77 +29,72 @@
         - title: Exchange study period
           contents:
             - Exchange student at NTNU (Norwegian University of Science and Technology) in Trondheim since august 2022 to december 2022.
-    - title: Bachelor's Degree in Computer Engineering
-      institution: Università degli studi di Modena e Reggio Emilia, Mantova, Italy
-      year: 2018 - 2021
-      description:
-        - Computer Engineering for Industry 4.0
-        - Aggregate Score 105/110
+#     - title: Bachelor's Degree in Computer Engineering
+#       institution: Università degli studi di Modena e Reggio Emilia, Mantova, Italy
+#       year: 2018 - 2021
+#       description:
+#         - Computer Engineering for Industry 4.0
+#         - Aggregate Score 105/110
 
-    - title: High School Diploma
-      institution: Istituto Tecnico Industriale Enrico Fermi, Modena, Italy
-      year: 2013 - 2018 
-      description:
-        - Diploma in Information Technology and Telecommunications.
+#     - title: High School Diploma
+#       institution: Istituto Tecnico Industriale Enrico Fermi, Modena, Italy
+#       year: 2013 - 2018 
+#       description:
+#         - Diploma in Information Technology and Telecommunications.
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: AI Assistant Researcher
-      institution: Hipert Lab (Università degli studi di Modena e Reggio Emilia), Modena, Italy
-      year: 2022
-      description: Implementation of geometric methodologies based on the model and implementation of machine learning techniques, driven by data, in the context of 6D pose estimation.
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: AI Assistant Researcher
+#       institution: Hipert Lab (Università degli studi di Modena e Reggio Emilia), Modena, Italy
+#       year: 2022
+#       description: Implementation of geometric methodologies based on the model and implementation of machine learning techniques, driven by data, in the context of 6D pose estimation.
 
-    - title: Intern
-      institution: Hipert Lab (Università degli studi di Modena e Reggio Emilia), Modena, Italy
-      year: 2021
-      description: 
-        - Internship for Bachelor’s Degree
-        - Thesis Title Labeling the best tools available and their application for detection of people e road signs and for poses estimation of 3D objects
+#     - title: Intern
+#       institution: Hipert Lab (Università degli studi di Modena e Reggio Emilia), Modena, Italy
+#       year: 2021
+#       description: 
+#         - Internship for Bachelor’s Degree
+#         - Thesis Title Labeling the best tools available and their application for detection of people e road signs and for poses estimation of 3D objects
 
-    - title: Waiter
-      institution: "La Mucca Argentina" restaurant (Modena)
-      year: 2019
+#     - title: Waiter
+#       institution: "La Mucca Argentina" restaurant (Modena)
+#       year: 2019
 
-    - title: Computer Assistant
-      institution: GPI s.r.l. (Modena)
-      year: 2019
-      description: Computer maintenance, repair and installation at the Modena Polyclinic hospital.
+#     - title: Computer Assistant
+#       institution: GPI s.r.l. (Modena)
+#       year: 2019
+#       description: Computer maintenance, repair and installation at the Modena Polyclinic hospital.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/tobiapoppi/CVCS_project_DeepFake">DeepFake Detection</a>
-      year: 2022
-      description: Project aimed at the detection of deepfake images.
-    - title: <a href="https://github.com/CescoMoretti/Smart-Rescue-Team">Smart Rescue Team</a>
-      year: 2021
-      description: IoT project for the rescue of missing people through dogs or autonomous vehicles.
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/tobiapoppi/CVCS_project_DeepFake">DeepFake Detection</a>
+#       year: 2022
+#       description: Project aimed at the detection of deepfake images.
+#     - title: <a href="https://github.com/CescoMoretti/Smart-Rescue-Team">Smart Rescue Team</a>
+#       year: 2021
+#       description: IoT project for the rescue of missing people through dogs or autonomous vehicles.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items: 
+#         - Nobel Prize in Physics 
+#         - Matteucci Medal
+#     - year: 2029
+#       items: 
+#         - Max Planck Medal
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Music, Audio Mixing Engineering, Golf, Billiard, Hiking, etc.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
