@@ -55,7 +55,7 @@
       year: 2021
       description: 
         - Internship for Bachelor’s Degree
-        - "Thesis Title: Labeling: the best tools available and their application for detection of people e road signs and for poses estimation of 3D objects"
+        - Thesis Title Labeling the best tools available and their application for detection of people e road signs and for poses estimation of 3D objects
 
     - title: Waiter
       institution: "La Mucca Argentina" restaurant (Modena)
@@ -76,28 +76,28 @@
       year: 2021
       description: IoT project for the rescue of missing people through dogs or autonomous vehicles.
 
-#- title: Honors and Awards
-#  type: time_table
-#  contents:
-#    - year: 1921
-#      items: 
-#        - Nobel Prize in Physics 
-#        - Matteucci Medal
-#    - year: 2029
-#      items: 
-#        - Max Planck Medal
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 1921
+      items: 
+        - Nobel Prize in Physics 
+        - Matteucci Medal
+    - year: 2029
+      items: 
+        - Max Planck Medal
 
-#- title: Academic Interests
-#  type: nested_list
-#  contents:
-#    - title: Topic 1.
-#      items: 
-#        - Description 1.
-#        - Description 2.
-#    - title: Topic 2.
-#      items:
-#        - Description 1.
-#        - Description 2.
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items: 
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
 
 - title: Other Interests
   type: list
