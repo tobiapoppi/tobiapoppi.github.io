@@ -11,32 +11,36 @@
 - title: Education
   type: time_table
   contents:
-    - title: Master's Degree
+    - title: Master's Degree in Computer Engineering
       institution: Università degli studi di Modena e Reggio Emilia, Modena, Italy
-      year: 2021 - present
+      year: 2021 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Curricula specialized in Artificial Intelligence Engineering
+        - title: Main taken exams
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Bachelor's Degree
+            - Machine Learning & Deep Learning 30/30 CUM LAUDE
+            - Big Data Analysis - 30/30 CUM LAUDE
+            - IoT and 3D Intelligent Systems - 30/30
+            - Mathematics of Machine Learning - 28/30
+            - Computer Vision & Cognitive Systems - 30/30
+            - Smart Robotics - to be taken
+            - Distributed Artificial Intelligence - to be taken
+            - Multimedia Data Processing - to be taken
+        - title: Exchange study period
+          contents:
+            - Exchange student at NTNU (Norwegian University of Science and Technology) in Trondheim since august 2022 to december 2022.
+    - title: Bachelor's Degree in Computer Engineering
       institution: Università degli studi di Modena e Reggio Emilia, Mantova, Italy
       year: 2018 - 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Computer Engineering for Industry 4.0
+        - Aggregate Score 105/110
+
+    - title: High School Diploma
+      institution: Istituto Tecnico Industriale Enrico Fermi, Modena, Italy
+      year: 2013 - 2018 
       description:
-        - Description 1.
-        - Description 2.
+        - Diploma in Information and Communication Technology and Telecommunications.
 
 - title: Experience
   type: time_table
