@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am PhD student in Artificial Intelligence *(dottorato nazionale in Intelligenza Artificiale)* at Università di Pisa and Università degli Studi di Modena e Reggio Emilia.
+I am a PhD student in Artificial Intelligence (*dottorato nazionale in Intelligenza Artificiale*) at Università di Pisa and Università degli Studi di Modena e Reggio Emilia.
 
 I am an enthusiast of Artificial Intelligence, deep learning technologies, and ethical issues implicated in technology. My research delves into `trustworthy AI` and `safe AI`.
 
