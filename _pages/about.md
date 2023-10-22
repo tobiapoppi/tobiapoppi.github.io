@@ -17,11 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am pursuing Master's degree in Computer Engineering with special curricula `"Artificial Intelligence Engineering"` at Università degli studi di Modena e Reggio Emilia.
+I am PhD student in Artificial Intelligence *(dottorato nazionale in Intelligenza Artificiale)* at Università di Pisa and Università degli Studi di Modena e Reggio Emilia.
 
-I am currently studying as an exchange student in Trondheim at Norwegian University of Science and Technology.
-
-I am enthusiast of Artificial Intelligence, deep learning technologies, and particularly devoted to `trustworthy AI` and `ethical issues` implicated in technology.
+I am an enthusiast of Artificial Intelligence, deep learning technologies, and ethical issues implicated in technology. My research delves into `trustworthy AI` and `safe AI`.
 
 As a multifaceted personality, I love to switch from one activity to another, taking care of my `educational life`, `spiritual life`, `artistic life` and `sporting life` through a variety of passions. 
 
