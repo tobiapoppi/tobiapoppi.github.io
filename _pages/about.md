@@ -17,11 +17,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a PhD candidate in the *National PhD in Artificial Intelligence* at the University of Pisa, specializing in **AI Safety**, **Responsible AI**, and **Trustworthy AI**.
+I'm a PhD candidate in the *National PhD in Artificial Intelligence* at the University of Pisa, specializing in `AI Safety`, `Responsible AI`, and `Trustworthy AI`.
 
-My research focuses on advancing **Generative AI** and **Multimodal architectures**, aiming to bridge the gap between cutting-edge deep learning technologies and ethical alignment with human values.
+My research focuses on advancing `Generative AI` and `Multimodal architectures`, aiming to bridge the gap between cutting-edge deep learning technologies and ethical alignment with human values.
 
-Passionate about leveraging AI to solve complex societal challenges, I am dedicated to ensuring AI systems are **safe**, **transparent**, and **aligned** with responsible principles, driving innovation with a human-centric approach.
+Passionate about leveraging AI to solve complex societal challenges, I am dedicated to ensuring AI systems are `safe`, `transparent`, and `aligned` with responsible principles, driving innovation with a human-centric approach.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
