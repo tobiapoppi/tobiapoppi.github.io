@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /works&publications/
+permalink: /publications/
 title: works and publications
 description: works and publications by categories in reversed chronological order.
 years: [2024, 2023, 2022, 2021]
