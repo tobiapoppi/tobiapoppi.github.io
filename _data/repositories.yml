@@ -2,9 +2,10 @@ github_users:
   - tobiapoppi
 
 github_repos:
+  - aimagelab/safe-clip
   - tobiapoppi/CVCS_project_DeepFake
+  - tobiapoppi/Firefly-inspired-heartbeat-sync-in-Small-World-Networks
+  - tobiapoppi/Intelligent-IoT-Smart-Building-Security
+  - tobiapoppi/flight-taxi-out-prediction-ML
   - tobiapoppi/Yolo-train-EfficientDet
   - CescoMoretti/Smart-Rescue-Team
-  - tobiapoppi/flight-taxi-out-prediction-ML
-  - tobiapoppi/Intelligent-IoT-Smart-Building-Security
-  - tobiapoppi/Utils-scripts-for-YOLO-and-COCO-annotation-formats-conversions
