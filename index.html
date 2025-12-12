@@ -23,7 +23,7 @@
                   Tobia Poppi
                 </p>
                 <p>
-                  I'm a PhD candidate in the <em>National PhD in Artificial Intelligence</em> at the <a href="https://www.unipi.it/">University of Pisa</a>, conducting my research at <a href="https://aimagelab.ing.unimore.it/imagelab/">AImageLab</a>, the research laboratory of the Department of Engineering "Enzo Ferrari" at the University of Modena and Reggio Emilia. My specialization areas include <code>AI Safety</code>, <code>Responsible AI</code>, and <code>Trustworthy AI</code>.
+                  I'm a PhD candidate in the <em>National PhD in Artificial Intelligence</em> at the <a href="https://www.unipi.it/">University of Pisa</a>, conducting my research at <a href="https://aimagelab.ing.unimore.it/imagelab/">AImageLab</a>, the research laboratory of the Department of Engineering "Enzo Ferrari" at the University of Modena and Reggio Emilia. I recently participated in an internship at Amazon Prime Video in Seattle. My specialization areas include <code>AI Safety</code>, <code>Responsible AI</code>, and <code>Trustworthy AI</code>.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:tobia.poppi@unimore.com">Email</a> &nbsp;/&nbsp;
@@ -57,6 +57,50 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <tr onmouseout="prefilling_stop()" onmouseover="prefilling_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='prefilling_image'>
+            <img src='images/publication_preview/prefilling.png' width=100%>
+          </div>
+          <img src='images/publication_preview/prefilling.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function prefilling_start() {
+            document.getElementById('prefilling_image').style.opacity = "1";
+          }
+
+          function prefilling_stop() {
+            document.getElementById('prefilling_image').style.opacity = "0";
+          }
+          prefilling_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2505.15323">
+			<span class="papertitle">Improving LLM First-Token Predictions in Multiple-Choice Question Answering via Prefilling Attack
+</span>
+        </a>
+        <br>
+				Silvia Cappelletti,
+				<strong>Tobia Poppi</strong>,
+				<a href="https://seppia978.github.io/">Samuele Poppi</a>, 
+        <a href="https://yongzx.github.io/">Zheng-Xin Yong</a>,
+        <a href="https://www.diegoolano.com/">Diego Garcia-Olano</a>,
+				<a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=90">Marcella Cornia</a>, 
+				<a href="https://www.lorenzobaraldi.com/">Lorenzo Baraldi</a>, 
+				<a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1">Rita Cucchiara</a>
+				<br>
+        <em>arXiv</em>, 2025
+        <br>
+        <a href="https://arxiv.org/abs/2505.15323">arXiv</a>
+        <p></p>
+        <p>
+        We propose the prefilling attack, a structured natural-language prefix prepended to the model output, to steer the model to respond with a clean, valid option in multiple-choice question answering tasks, significantly improving accuracy and calibration.
+        </p>
+      </td>
+    </tr>
 
     <tr onmouseout="hyp_stop()" onmouseover="hyp_start()" bgcolor="#ffffd0">
       <td style="padding:16px;width:20%;vertical-align:middle">
