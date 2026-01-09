@@ -58,6 +58,52 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+    <tr onmouseout="countervid_stop()" onmouseover="countervid_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='countervid_image'>
+            <img src='images/publication_preview/hall_after.gif' width=100%>
+          </div>
+          <img src='images/publication_preview/hall_bef.gif' width=100%>
+        </div>
+        <script type="text/javascript">
+          function countervid_start() {
+            document.getElementById('countervid_image').style.opacity = "1";
+          }
+
+          function countervid_stop() {
+            document.getElementById('countervid_image').style.opacity = "0";
+          }
+          countervid_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2601.04778">
+			<span class="papertitle">CounterVid: Counterfactual Video Generation for Mitigating Action and Temporal Hallucinations in Video-Language Models
+</span>
+        </a>
+        <br>
+				<strong>Tobia Poppi</strong>,
+				<a href="">Burak Uzkent</a>,
+				<a href="">Amanmeet Garg</a>,
+				<a href="">Lucas Porto</a>,
+				<a href="">Garin Kessler</a>,
+				<a href="">Yezhou Yang</a>,
+				<a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=90">Marcella Cornia</a>,
+				<a href="https://www.lorenzobaraldi.com/">Lorenzo Baraldi</a>,
+				<a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1">Rita Cucchiara</a>,
+				<a href="">Florian Schiffers</a>
+				<br>
+        <em>arXiv</em>, 2026
+        <br>
+        <a href="https://arxiv.org/abs/2601.04778">arXiv</a>
+        <p></p>
+        <p>
+        CounterVid introduces a framework leveraging diffusion models for image editing and video generation combined with the reasoning capabilities of video-language models to generate counterfactual videos that mitigate hallucinations, developed during an internship at Amazon Prime Video.
+        </p>
+      </td>
+    </tr>
+
     <tr onmouseout="prefilling_stop()" onmouseover="prefilling_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
