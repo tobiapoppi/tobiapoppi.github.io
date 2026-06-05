@@ -74,6 +74,54 @@
           </table>
           
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr onmouseout="cms_stop()" onmouseover="cms_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='cms_image'>
+            <img src='images/publication_preview/cms-corgi-safe.png' width=100%>
+          </div>
+          <img src='images/publication_preview/cms-corgi-unsafe.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function cms_start() {
+            document.getElementById('cms_image').style.opacity = "1";
+          }
+
+          function cms_stop() {
+            document.getElementById('cms_image').style.opacity = "0";
+          }
+          cms_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://aimagelab.github.io/cross-model-safety-representations/">
+			<span class="papertitle">Do Models Share Safety Representations? Cross-Model Steering for Safe Visual Generation
+</span>
+        </a>
+        <br>
+				<strong>Tobia Poppi</strong>,
+				Silvia Cappelletti,
+				Sara Sarto,
+				<a href="https://florianschiffers.com/">Florian Schiffers</a>,
+				Garin Kessler,
+				<a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=90">Marcella Cornia</a>,
+				<a href="https://www.lorenzobaraldi.com/">Lorenzo Baraldi</a>,
+				<a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1">Rita Cucchiara</a>
+				<br>
+        <em>arXiv</em>, 2026
+        <br>
+        <a href="https://aimagelab.github.io/cross-model-safety-representations/">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2606.05290">arXiv</a>
+        /
+        <a href="https://github.com/aimagelab/cross-model-safety-representations">code</a>
+        <p></p>
+        <p>
+        We study whether safety directions learned in one language model can transfer across representation spaces to steer heterogeneous visual generators, reducing unsafe generations through benign-only alignment while preserving generation utility.
+        </p>
+      </td>
+    </tr>
+
     <tr onmouseout="countervid_stop()" onmouseover="countervid_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
@@ -267,6 +315,53 @@
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
           <div class="two" id='ever_image'>
+					  <img src='images/publication_preview/bias_2021.png' width=100%>
+					</div>
+          <img src='images/publication_preview/bias_2021.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function ever_start() {
+            document.getElementById('ever_image').style.opacity = "1";
+          }
+
+          function ever_stop() {
+            document.getElementById('ever_image').style.opacity = "0";
+          }
+          ever_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://www.mdpi.com/2313-433X/12/6/244">
+			<span class="papertitle">Generative Data Augmentation for ArUco-Free RGB-Based 6-DoF Object Pose Estimation
+</span>
+        </a>
+        <br>
+        <a href="https://scholar.google.com/citations?user=h9VPK0wAAAAJ&hl=it">Carmelo Scribano</a>,
+        Iacopo Ferrari,
+				<a href="https://scholar.google.com/citations?user=yowrAYIAAAAJ&hl=it">Giorgia Franchini</a>,
+        <a href="https://scholar.google.com/citations?user=SblzAwgAAAAJ&hl=it">Elena Govi</a>,
+        <a href="https://scholar.google.com/citations?user=FQ7tkesAAAAJ&hl=it">Davide Sapienza</a>,
+				<strong>Tobia Poppi</strong>,
+				<a href="https://scholar.google.com/citations?user=mAI66nEAAAAJ&hl=en">Micaela Verucchi</a>,
+				<a href="https://scholar.google.com/citations?user=ZRrTqs8AAAAJ&hl=it">Marko Bertogna</a>
+				<br>
+        <em>Journal of Imaging</em>, 2026
+        <br>
+        <a href="https://www.mdpi.com/2313-433X/12/6/244">paper</a>
+        /
+        <a href="https://doi.org/10.3390/jimaging12060244">doi</a>
+        <p></p>
+        <p>
+        A study of shortcut bias induced by ArUco markers in RGB-based 6-DoF object pose estimation, proposing a generative data augmentation pipeline that removes markers and synthesizes realistic backgrounds to improve robustness in ArUco-free settings.
+        </p>
+      </td>
+    </tr>
+
+
+    <tr onmouseout="ever_stop()" onmouseover="ever_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='ever_image'>
 					  <img src='images/publication_preview/LMThesis.png' width=100%>
 					</div>
           <img src='images/publication_preview/LMThesis.png' width=100%>
@@ -289,9 +384,9 @@
         </a>
         <br>
 				<strong>Tobia Poppi</strong>,
-				<a href="https://seppia978.github.io/">Samuele Poppi</a>, 
-				<a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=90">Marcella Cornia</a>, 
-				<a href="https://www.lorenzobaraldi.com/">Lorenzo Baraldi</a>, 
+				<a href="https://seppia978.github.io/">Samuele Poppi</a>,
+				<a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=90">Marcella Cornia</a>,
+				<a href="https://www.lorenzobaraldi.com/">Lorenzo Baraldi</a>,
 				<a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1">Rita Cucchiara</a>
 				<br>
         <!-- <em>European Conference on Computer Vision</em>,--> 2023
@@ -303,51 +398,6 @@
         </p>
       </td>
     </tr>
-
-    <tr onmouseout="ever_stop()" onmouseover="ever_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='ever_image'>
-					  <img src='images/publication_preview/bias_2021.png' width=100%>
-					</div>
-          <img src='images/publication_preview/bias_2021.png' width=100%>
-        </div>
-        <script type="text/javascript">
-          function ever_start() {
-            document.getElementById('ever_image').style.opacity = "1";
-          }
-
-          function ever_stop() {
-            document.getElementById('ever_image').style.opacity = "0";
-          }
-          ever_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2304.08230">
-			<span class="papertitle">Uncovering the Background-Induced bias in RGB based 6-DoF Object Pose Estimation
-</span>
-        </a>
-        <br>
-        <a href="https://scholar.google.com/citations?user=SblzAwgAAAAJ&hl=it">Elena Govi</a>,
-        <a href="https://scholar.google.com/citations?user=FQ7tkesAAAAJ&hl=it">Davide Sapienza</a>,
-        <a href="https://scholar.google.com/citations?user=h9VPK0wAAAAJ&hl=it">Carmelo Scribano</a>,
-				<strong>Tobia Poppi</strong>,
-				<a href="https://scholar.google.com/citations?user=yowrAYIAAAAJ&hl=it">Giorgia Franchini</a>, 
-				<a href="https://scholar.google.com/citations?hl=it&user=_0WSCtYAAAAJ">Paola Ardòn</a>, 
-				<a href="https://scholar.google.com/citations?user=mAI66nEAAAAJ&hl=en">Micaela Verucchi</a>, 
-				<a href="https://scholar.google.com/citations?user=ZRrTqs8AAAAJ&hl=it">Marko Bertogna</a>
-				<br>
-        <!-- <em>European Conference on Computer Vision</em>,--> 2023
-        <br>
-        <a href="https://arxiv.org/abs/2304.08230">arXiv</a>
-        <p></p>
-        <p>
-        An investigation into background-induced bias in 6-DoF object pose estimation, revealing how ArUco markers in datasets like Linemod influence model predictions and proposing mitigation strategies using dataset augmentation and saliency map analysis.
-        </p>
-      </td>
-    </tr>
-
 
     <tr onmouseout="ever_stop()" onmouseover="ever_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
