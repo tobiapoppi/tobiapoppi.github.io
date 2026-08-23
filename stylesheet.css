@@ -134,9 +134,195 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+.profile-links {
+  line-height: 1.8;
+}
+
+.section-heading td {
+  padding-bottom: 10px;
+}
+
+.experience-table td {
+  padding: 0 16px;
+}
+
+.experience-entry {
+  margin-bottom: 18px;
+}
+
+.entry-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.entry-heading strong {
+  font-size: 16px;
+}
+
+.entry-heading span {
+  color: #666;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.entry-role {
+  margin: 3px 0 6px;
+  color: #555;
+  font-size: 12px;
+  font-variant: small-caps;
+  letter-spacing: .04em;
+}
+
+.experience-entry p,
+.fellowship-card p {
+  margin: 4px 0 0;
+}
+
+.fellowship-card {
+  margin: 4px 0 12px;
+  padding: 14px 16px;
+  border-left: 4px solid #24a45d;
+  border-radius: 4px;
+  background: #f3fbf6;
+}
+
+.skills-table {
+  margin-bottom: 6px;
+}
+
+.skills-table th {
+  width: 105px;
+  padding: 5px 12px 5px 20px;
+  text-align: right;
+  vertical-align: top;
+}
+
+.skills-table td {
+  padding: 5px 20px 5px 0;
+  vertical-align: top;
+}
+
+.affiliation-logos img {
+  height: auto;
+  max-width: 100%;
+}
+
 .colored-box {
     color: black;
     padding: 20px;
     display: inline-block;
     border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0 6px;
+  }
+
+  .name {
+    padding-top: 8px;
+    font-size: 28px;
+  }
+
+  .profile-table tbody,
+  .profile-table tr,
+  .profile-table td {
+    display: block;
+    box-sizing: border-box;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .profile-table tr {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .profile-table td:last-child {
+    width: 150px !important;
+    padding-bottom: 0 !important;
+  }
+
+  .entry-heading {
+    display: block;
+  }
+
+  .entry-heading span {
+    display: block;
+    margin-top: 3px;
+    white-space: normal;
+  }
+
+  .experience-table td {
+    padding: 0 12px;
+  }
+
+  .fellowship-card {
+    padding: 12px;
+  }
+
+  .skills-table th,
+  .skills-table td {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 14px;
+    padding-left: 14px;
+    text-align: left;
+  }
+
+  .skills-table th {
+    padding-bottom: 0;
+  }
+
+  .affiliation-logos td {
+    padding: 10px;
+  }
+
+  .affiliation-logos img {
+    width: 90px;
+  }
+
+  .publications-table tbody,
+  .publications-table tr,
+  .publications-table td,
+  .projects-table tbody,
+  .projects-table tr,
+  .projects-table td {
+    display: block;
+    box-sizing: border-box;
+    width: 100% !important;
+  }
+
+  .publications-table tr {
+    margin-bottom: 18px;
+  }
+
+  .publications-table td:first-child,
+  .projects-table td:first-child {
+    padding-bottom: 4px !important;
+    text-align: center;
+  }
+
+  .publications-table td:last-child {
+    padding: 4px 16px 12px !important;
+  }
+
+  .projects-table td {
+    padding: 8px 16px !important;
+  }
+
+  .projects-table td:first-child {
+    padding-top: 18px !important;
+  }
+
+  .one,
+  .two {
+    width: 110px;
+    height: 110px;
+  }
 }
