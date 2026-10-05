@@ -130,6 +130,15 @@ h2 {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
+.shieldclip-after {
+  opacity: 0;
+}
+
+.shieldclip-publication:hover .shieldclip-after,
+.shieldclip-publication:focus-within .shieldclip-after {
+  opacity: 1;
+}
+
 span.highlight {
   background-color: #ffffd0;
 }
